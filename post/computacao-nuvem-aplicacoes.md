@@ -197,12 +197,12 @@ implementação (PCMONS) por intermédio de um caso de estudo para ajudar novos 
 Os pesquisadores aplicaram a arquitetura descrita para uma aplicação representada na figura 1, que demonstra os nı́veis das camadas. Na camada de Infraestrutura consiste em instalações de serviços essenciais como hardware e rede, interagindo com o sistema operacional, licenças, hipervisores e entre outros. A camada de integração é composta por recursos heterogêneos, requisitando uma interface comum para o acesso. Uma situação tı́pica é quando o usuário solicita uma instanciação de máquina virtual. Um cenário possı́vel é a presença de múltiplas plataformas para computação em nuvem, como
 Eucalyptus e OpenNebula. Já a camada de visualização apresenta como o monitoramento por meio de interfaces, nesta camada pode implementar diferentes visões, de acordo com as necessidades da empresa.
 
-![Arquitetura](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/computacao-nuvem-aplicacoes-arquitetura.png)
+![Arquitetura](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/computacao-nuvem-aplicacoes-arquitetura.png)
 
 ### Caso de estudo
 Para concretizar o ambiente de teste apresentado na figura 2, o sistema operacional das máquinas fı́sicas foi o SUSE Linux, devido à sua fácil instalação e configuração. O Eucalyptus é uma solução de software aberto para computação em nuvem que oferece uma interface compatı́vel com Amazon EC2. Para exemplificar a situação, foi construı́do um ambiente nas quais as maquinas virtuais estão disponı́veis para usuários que instanciam um servidor web para hospedagem, utilizando ferramentas como Apache Web Server, linguagem PHP para desenvolvimento de páginas da Web e SQLite para persistência de dados.
 
-![Ambiente de testes](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/computacao-nuvem-aplicacoes-ambiente.png)
+![Ambiente de testes](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/computacao-nuvem-aplicacoes-ambiente.png)
 
 Além das tecnologias destacadas acima, os autores utilizaram mais algumas, entre elas a linguagem Python foi utilizada durante o desenvolvimento de processos, a linguagem Perl também se fez necessário para realizar integrações com software Eucalyptus e também a linguagem de script Bash para realizar interações com Linux.
 
@@ -213,7 +213,7 @@ de caso. O Nagios é utilizado para exibir as informações de monitoramento
 permitindo possuir uma identificação ágil de falhas ou possı́veis problemas
 durante a execução.
 
-![Resultados](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/computacao-nuvem-aplicacoes-resultados.png)
+![Resultados](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/computacao-nuvem-aplicacoes-resultados.png)
 
 Durante o processo, os pesquisadores constataram que o monitoramento da computação em nuvem pode se beneficiar dos conceitos estabelecidos para computação distribuı́da. Em contrapartida, mesmo em nuvens privadas, a heterogeneidade dos recursos de computação pode exigir algum esforço extra ao implementar a solução de monitoramento. Por fim, a pesquisa fornece primeiros passos em direção a uma arquitetura de monitoramento para nuvens privadas.
 

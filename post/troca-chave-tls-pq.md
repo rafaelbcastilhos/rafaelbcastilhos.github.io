@@ -62,7 +62,7 @@ chave pública da outra parte e sua própria chave privada.
 
 Aplicando essas funcionalidades da biblioteca, é possı́vel encontrar o seguinte fluxo:
 
-![Fluxograma](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/troca-chave-tls-pq-fluxo.png)
+![Fluxograma](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/troca-chave-tls-pq-fluxo.png)
 
 ## Experimento
 O experimento será executado em um notebook com sistema operacional Linux Ubuntu, todos os procedimentos citados a seguir também poderão ser executados em outros sistemas operacionais, porém haverá diferença em alguns comandos que são especiais do Linux. Preambularmente, iremos precisar realizar o download do programa Wireshark que é um programa que analisa o tráfego da rede e organiza por protocolos. Também iremos precisar baixar a biblioteca liboqs e a biblioteca wolfSSL.
@@ -127,17 +127,17 @@ Na outra janela do terminal, execute a conexão do cliente:
 
 O servidor e o cliente realizam uma conexão TLS e uma comunicação com mensagem de ida e volta. Cada janela exibe informações de conexão TLS 1.3 com as seguintes mensagens:
 
-![Servidor](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/troca-chave-tls-pq-servidor.png)
+![Servidor](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/troca-chave-tls-pq-servidor.png)
 
-![Cliente](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/troca-chave-tls-pq-cliente.png)
+![Cliente](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/troca-chave-tls-pq-cliente.png)
 
 Após realizar a conexão, é possı́vel verificar os pacotes no Wireshark, filtrando apenas os pacotes que utilizam TLS, de acordo com a figura abaixo:
 
-![Wireshark](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/troca-chave-tls-pq-wireshark.png)
+![Wireshark](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/troca-chave-tls-pq-wireshark.png)
 
 E também constatar o acontecimento do handshake, Client Hello e Server Hello, na imagem abaixo é demonstrado com detalhes as propriedades do TLS no pacote Server Hello:
 
-![Pacote Wireshark](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/main/post/images/troca-chave-tls-pq-pacote.png)
+![Pacote Wireshark](https://raw.githubusercontent.com/rafaelbcastilhos/rafaelbcastilhos.github.io/master/post/images/troca-chave-tls-pq-pacote.png)
 
 ## Análise e conclusões
 Portanto, após realizar testes e executar o programa de benchmark disponibilizado pela wolfSSL por meio do comando:
