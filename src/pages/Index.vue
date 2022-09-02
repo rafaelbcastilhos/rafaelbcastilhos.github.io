@@ -5,7 +5,7 @@
         <img src="https://i.imgur.com/X3iuz0A.png" alt="image" />
       </div>
       <p class="text-justify">
-        Sou Rafael Begnini de Castilhos, tenho 21 anos e atualmente resido em Florianópolis, SC - Brasil. Estou cursando Ciência da Computação pela Universidade Federal de Santa Catarina (UFSC), sempre disposto a aprender cada vez mais, gosto de desafios e almejo por meio da tecnologia simplificar a vida das pessoas!
+        Sou Rafael Begnini de Castilhos, sou natural de Nova Prata - RS e atualmente resido em Florianópolis - SC. Estou cursando Ciência da Computação pela Universidade Federal de Santa Catarina (UFSC), sempre disposto a aprender cada vez mais, gosto de desafios e almejo por meio da tecnologia simplificar a vida das pessoas!
       </p>
       <p class="text-justify">
         Em minha jornada profissional, adquiri experiência em linguagens como Java, Python e C/C++ para desenvolvimento backend. Concomitantemente, possuo amplo conhecimento em provedores de nuvem pública com AWS e GCP, focando em aplicações decentralizadas utilizando microsserviços. Objetivo a resolução de problemas reais baseado em análise de requisitos juntamente com metodologias ágeis como Scrum e Kanban.
