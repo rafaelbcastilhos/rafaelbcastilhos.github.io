@@ -2,8 +2,8 @@ const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
-  siteName: 'Rafael B. Castilhos',
-  siteDescription: 'Postagens de Rafael B. Castilhos',
+  siteName: 'Rafael Begnini de Castilhos',
+  siteDescription: 'Postagens de Rafael Begnini de Castilhos',
   siteUrl: 'https://rafaelbcastilhos.github.io/',
   pathPrefix: '/',
 
