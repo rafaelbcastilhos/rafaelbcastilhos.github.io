@@ -53,7 +53,7 @@ export default {
         {
           key: 'author',
           name: 'author',
-          content: 'Rafael B. Castilhos',
+          content: 'Rafael Begnini de Castilhos',
         },
       ],
     };
