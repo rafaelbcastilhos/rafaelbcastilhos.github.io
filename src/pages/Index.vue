@@ -2,7 +2,7 @@
   <Layout>
     <div class="p-2 text-left">
       <div class="flex justify-center">
-        <img src="https://i.imgur.com/LdVgwk4.jpg" alt="image" />
+        <img src="https://i.imgur.com/52RjY7i.png" alt="image" />
       </div>
       <p class="text-justify">
         Sou Rafael Begnini de Castilhos, sou natural de Nova Prata - RS e atualmente resido em Florianópolis - SC. Estou cursando Ciência da Computação pela Universidade Federal de Santa Catarina (UFSC), sempre disposto a aprender cada vez mais, gosto de desafios e almejo por meio da tecnologia simplificar a vida das pessoas!
